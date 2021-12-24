@@ -7,5 +7,10 @@ pipeline {
                 echo 'Packiaraj welcome'
             }
         }
+        stage('Build) {
+            steps {
+                pwd
+            }
+        }
     }
 }
