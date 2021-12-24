@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Code') {
             steps {
                 echo 'Packiaraj welcome'
             }
         }
         stage('Build') {
             steps {
-                pwd
+                echo 'Build welcome'
             }
         }
     }
