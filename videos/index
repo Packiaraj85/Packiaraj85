@@ -4,12 +4,15 @@ pipeline {
     stages {
         stage('Code') {
             steps {
-                echo 'Packiaraj welcome'
+                echo 'Welcome to Docker Code'
+                sh 'docker --version'
             }
         }
         stage('Build') {
             steps {
-                echo 'Build welcome'
+                echo 'Welcome to Build '
+                sh 'pwd'
+
             }
         }
     }
